@@ -2,3 +2,127 @@ body {
     background-color: #000000;
     color: white;
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: 1px solid #4ba1b5;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.caja {
+    margin: 80px 0;
+}
+
+
+/*Carousel*/
+
+@media (max-width: 576px) {
+    #carouselExampleControls {
+        margin-top: 57px;
+    }
+}
+
+
+/* NAVBAR */
+
+@media (max-width: 576px) {
+    .navbar-light .navbar-toggler {
+        color: white;
+        border-color: white;
+    }
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar {
+    background-color: #4ba1b5;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+
+/* QUIENES SOMOS */
+
+.cuadro-celeste {
+    background-color: #4ba1b5;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .cuadro-celeste {
+        background-color: #4ba1b5;
+        padding: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+
+/* Destacados */
+
+.card {
+    background-color: #4ba1b5;
+}
+
+@media (max-width: 576px) {
+    .card {
+        background-color: #4ba1b5;
+        margin-top: 30px;
+    }
+    .destacados {
+        display: none;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #4ba1b5;
+}
+
+.footer-1 {
+    color: white;
+}
+
+.icono a {
+    color: white;
+}
+
+
+/* Contacto */
+
+.btn-primary {
+    color: #fff;
+    background-color: #4ba1b5;
+    border-color: #4ba1b5;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #337c8d;
+    border-color: #337c8d;
+}
